@@ -1,19 +1,14 @@
 ﻿<Properties StartupConfiguration="{03295C72-1136-4387-8367-0BD3C3794DD9}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerController.cs">
     <Files>
       <File FileName="Assets/Scripts/UIManager.cs" Line="19" Column="6" />
-      <File FileName="Assets/Scripts/GameManager.cs" Line="23" Column="6" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="27" Column="6" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="5" Column="31" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="medical_unity_game" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="GameManager.cs" selected="True" />
-              </Node>
-            </Node>
-          </Node>
+          <Node name="medical_unity_game" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
