@@ -6,9 +6,13 @@ public class OldLadyController : MonoBehaviour
 {
     private Rigidbody2D rb;
     private FixedJoystick joystick;
+    private Transform targetPoint;
 
+    [Header("Movement")]
     public float speed;
+    public Transform sofa;
 
+    private bool canMove = false;
 
     // Start is called before the first frame update
     void Start()
@@ -45,5 +49,19 @@ public class OldLadyController : MonoBehaviour
         {
             transform.eulerAngles = new Vector3(0, 180, 0);
         }
+
+        if (canMove)
+        {
+            MoveToSofa();
+        }
+    }
+
+
+    public void MoveToSofa()
+    {
+        canMove = true;
+        targetPoint = sofa;
+        transform.position = Vector2.MoveTowards(transform.position, targetPoint.position, speed * Time.deltaTime);
+        //FilpDirection();
     }
 }

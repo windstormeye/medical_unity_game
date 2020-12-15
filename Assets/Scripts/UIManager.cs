@@ -4,15 +4,28 @@ using UnityEngine;
 
 public class UIManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public static UIManager instance;
+    public GameObject eatPillPanel;
+
+
+    public OldLadyController oldLady;
+
+
+    private void Awake()
     {
-        
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(instance);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void MoveToSofa()
     {
-        
+        eatPillPanel.SetActive(false);
+        oldLady.MoveToSofa();
     }
 }
