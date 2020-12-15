@@ -25,7 +25,7 @@ public class OldLadyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        CanMoveNextLevel();
     }
 
     private void FixedUpdate()
@@ -63,5 +63,13 @@ public class OldLadyController : MonoBehaviour
         targetPoint = sofa;
         transform.position = Vector2.MoveTowards(transform.position, targetPoint.position, speed * Time.deltaTime);
         //FilpDirection();
+    }
+
+    public void CanMoveNextLevel()
+    {
+        if (transform.position.x == targetPoint.transform.position.x)
+        {
+            UIManager.instance.NextLevel();
+        }
     }
 }

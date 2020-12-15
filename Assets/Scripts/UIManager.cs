@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class UIManager : MonoBehaviour
 {
     public static UIManager instance;
     public GameObject eatPillPanel;
+    public GameObject nextLevelPanel;
 
 
     public OldLadyController oldLady;
@@ -27,5 +30,15 @@ public class UIManager : MonoBehaviour
     {
         eatPillPanel.SetActive(false);
         oldLady.MoveToSofa();
+    }
+
+    public void NextLevel()
+    {
+        nextLevelPanel.SetActive(true);
+    }
+
+    public void GotoNextLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
