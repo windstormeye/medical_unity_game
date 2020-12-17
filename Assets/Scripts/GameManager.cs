@@ -9,6 +9,10 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     private OldLadyController oldLady;
 
+    private void Start()
+    {
+        StartCoroutine(DelayShowEatPillPanel());
+    }
 
     private void Awake()
     {
@@ -22,7 +26,6 @@ public class GameManager : MonoBehaviour
         }
 
         oldLady = FindObjectOfType<OldLadyController>();
-
     }
 
     public void NextLevel()
@@ -30,8 +33,11 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-    public void moveToSofa()
+    private IEnumerator DelayShowEatPillPanel()
     {
-        //oldLady.
+        // NOTE: 延迟 5s 出慈丹
+        yield return new WaitForSeconds(5);
+        UIManager.instance.ShowEatPillPanel();
+
     }
 }

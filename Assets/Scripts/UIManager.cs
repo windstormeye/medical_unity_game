@@ -9,6 +9,7 @@ public class UIManager : MonoBehaviour
     public static UIManager instance;
     public GameObject eatPillPanel;
     public GameObject nextLevelPanel;
+    public GameObject overPanel;
 
 
     public OldLadyController oldLady;
@@ -40,5 +41,21 @@ public class UIManager : MonoBehaviour
     public void GotoNextLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void DelayEatPill()
+    {
+        eatPillPanel.SetActive(false);
+        overPanel.SetActive(true);
+    }
+
+    public void ShowEatPillPanel()
+    {
+        eatPillPanel.SetActive(true);
     }
 }
