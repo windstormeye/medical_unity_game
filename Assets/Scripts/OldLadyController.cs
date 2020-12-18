@@ -62,7 +62,7 @@ public class OldLadyController : MonoBehaviour
         canMove = true;
         targetPoint = sofa;
         transform.position = Vector2.MoveTowards(transform.position, targetPoint.position, speed * Time.deltaTime);
-        //FilpDirection();
+        
     }
 
     public void CanMoveNextLevel()
