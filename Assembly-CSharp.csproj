@@ -70,10 +70,11 @@
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\OldLadyController.cs" />
-    <Compile Include="Assets\Scripts\Second\SecondGameManager.cs" />
-    <Compile Include="Assets\Scripts\UIManager.cs" />
+    <Compile Include="Assets\Scripts\1\GameManager.cs" />
+    <Compile Include="Assets\Scripts\1\OldLadyController.cs" />
+    <Compile Include="Assets\Scripts\1\UIManager.cs" />
+    <Compile Include="Assets\Scripts\2\SecondGameManager.cs" />
+    <Compile Include="Assets\Scripts\3\ThirdGameManager.cs" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/2019.4.10f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

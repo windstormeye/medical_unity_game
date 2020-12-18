@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{03295C72-1136-4387-8367-0BD3C3794DD9}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Second/SecondGameManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/3/ThirdGameManager.cs">
     <Files>
-      <File FileName="Assets/Scripts/UIManager.cs" Line="33" Column="27" />
-      <File FileName="Assets/Scripts/GameManager.cs" Line="24" Column="10" />
-      <File FileName="Assets/Scripts/OldLadyController.cs" Line="74" Column="6" />
-      <File FileName="Assets/Scripts/Second/SecondGameManager.cs" Line="12" Column="1" />
+      <File FileName="Assets/Scripts/UIManager.cs" Line="43" Column="72" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="15" Column="1" />
+      <File FileName="Assets/Scripts/OldLadyController.cs" Line="68" Column="17" />
+      <File FileName="Assets/Scripts/3/3GameManager.cs" Line="50" Column="6" />
+      <File FileName="Assets/Scripts/2/SecondGameManager.cs" Line="8" Column="5" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,8 +13,9 @@
           <Node name="medical_unity_game" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Second" expanded="True">
-                  <Node name="SecondGameManager.cs" selected="True" />
+                <Node name="2" expanded="True" />
+                <Node name="3" expanded="True">
+                  <Node name="ThirdGameManager.cs" selected="True" />
                 </Node>
               </Node>
             </Node>
