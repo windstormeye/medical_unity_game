@@ -775,8 +775,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: CallSon
+      - m_Target: {fileID: 1079902501}
+        m_MethodName: ContinueGoNearHospital
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1520,8 +1520,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: RestartGame
+      - m_Target: {fileID: 1079902501}
+        m_MethodName: NearHospital
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1650,8 +1650,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: CallSon
+      - m_Target: {fileID: 1079902501}
+        m_MethodName: RestartGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1884,6 +1884,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menuPanel: {fileID: 1417755501}
+  nextPanel: {fileID: 1934097893}
 --- !u!4 &1079902502
 Transform:
   m_ObjectHideFlags: 0
@@ -1993,7 +1994,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1417755502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2135,8 +2136,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: RestartGame
+      - m_Target: {fileID: 1079902501}
+        m_MethodName: NearHospital
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2252,7 +2253,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u8FDC\u5728 80km \u5916\u7684\u4E09\u7532\u533B\u9662"
+  m_Text: "\u7EE7\u7EED\u53BB\u4E09\u7532\u533B\u9662"
 --- !u!222 &1775740552
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2278,7 +2279,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1934097894
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2537,7 +2538,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u7B2C\u4E8C\u5E55"
+  m_Text: "\u7B2C\u56DB\u5E55"
 --- !u!222 &2027518662
 CanvasRenderer:
   m_ObjectHideFlags: 0
