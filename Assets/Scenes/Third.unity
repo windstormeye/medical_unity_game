@@ -556,7 +556,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &305687079
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1651,7 +1651,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1079902501}
-        m_MethodName: RestartGame
+        m_MethodName: ShowOverPanel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1885,6 +1885,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   menuPanel: {fileID: 1417755501}
   nextPanel: {fileID: 1934097893}
+  overPanel: {fileID: 305687078}
 --- !u!4 &1079902502
 Transform:
   m_ObjectHideFlags: 0
@@ -2769,7 +2770,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u88AB\u90BB\u5C45\u53D1\u73B0\u660F\u8FF7\u4E0D\u9192\uFF0C120 \u5E26\u8D70"
+  m_Text: "120 \u5E26\u8D70......\u6E38\u620F\u7ED3\u675F"
 --- !u!222 &2106988374
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -9,6 +9,7 @@ public class ThirdGameManager : MonoBehaviour
     public static ThirdGameManager instance;
     public GameObject menuPanel;
     public GameObject nextPanel;
+    public GameObject overPanel;
 
 
     private void Awake()
@@ -38,6 +39,12 @@ public class ThirdGameManager : MonoBehaviour
     public void RestartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+    }
+
+    public void ShowOverPanel()
+    {
+        nextPanel.SetActive(false);
+        overPanel.SetActive(true);
     }
 
     public void NearHospital()

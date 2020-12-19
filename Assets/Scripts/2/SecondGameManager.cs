@@ -7,7 +7,9 @@ public class SecondGameManager : MonoBehaviour
 {
     public static SecondGameManager instance;
     public GameObject menuPanel;
-    
+    public GameObject overPanel;
+    public GameObject nextPanel;
+
 
     private void Awake()
     {
@@ -36,6 +38,12 @@ public class SecondGameManager : MonoBehaviour
     public void RestartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+    }
+
+    public void Sleep()
+    {
+        menuPanel.SetActive(false);
+        overPanel.SetActive(true);
     }
 
     public void CallSon()

@@ -1596,8 +1596,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a316f4f8559174cabb5215d5a6d921e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuPanel: {fileID: 0}
-  overPanel: {fileID: 0}
+  menuPanel: {fileID: 1417755501}
+  overPanel: {fileID: 305687078}
 --- !u!4 &1079902502
 Transform:
   m_ObjectHideFlags: 0
