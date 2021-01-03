@@ -35,7 +35,7 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator DelayShowEatPillPanel()
     {
-        // NOTE: 延迟 5s 出慈丹
+        // NOTE: 延迟 5s 出菜单
         yield return new WaitForSeconds(5);
         UIManager.instance.ShowEatPillPanel();
 

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 
@@ -10,8 +11,9 @@ public class UIManager : MonoBehaviour
     public GameObject eatPillPanel;
     public GameObject nextLevelPanel;
     public GameObject overPanel;
-
-
+    public GameObject tipsPanel;
+    public Text titleText;
+     
     public OldLadyController oldLady;
 
 
@@ -29,7 +31,9 @@ public class UIManager : MonoBehaviour
 
     public void MoveToSofa()
     {
+        titleText.text = "感到头晕、眼前模糊、视物不清，勉强走路至床前，卧床休息。";
         eatPillPanel.SetActive(false);
+        tipsPanel.SetActive(false);
         oldLady.MoveToSofa();
     }
 
