@@ -1,15 +1,11 @@
 ﻿<Properties StartupConfiguration="{03295C72-1136-4387-8367-0BD3C3794DD9}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/00菜单/UIManagerWithOO.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/运动/场景一/UIMangerWithZero.cs">
     <Files>
-      <File FileName="Assets/Scripts/2/SecondGameManager.cs" Line="43" Column="22" />
-      <File FileName="Assets/Scripts/4/FourGameManager.cs" />
-      <File FileName="Assets/Scripts/5/FiveGameManager.cs" />
-      <File FileName="Assets/Scripts/1/GameManager.cs" Line="42" Column="53" />
-      <File FileName="Assets/Scripts/1/UIManager.cs" Line="28" Column="18" />
-      <File FileName="Assets/Scripts/00菜单/UIManagerWithOO.cs" Line="29" Column="6" />
-      <File FileName="Assets/Scripts/00菜单/UIManagerWithSport.cs" Line="10" Column="9" />
-      <File FileName="Assets/Scripts/01老奶奶/1/UIManager.cs" Line="47" Column="1" />
-      <File FileName="Assets/Scripts/01老奶奶/1/GameManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/00菜单/UIManagerWithOO.cs" Line="39" Column="1" />
+      <File FileName="Assets/Scripts/00菜单/UIManagerWithSport.cs" Line="15" Column="18" />
+      <File FileName="Assets/Scripts/01老奶奶/1/UIManager.cs" />
+      <File FileName="Assets/Scripts/01老奶奶/1/GameManager.cs" />
+      <File FileName="Assets/Scripts/运动/场景一/UIMangerWithZero.cs" Line="5" Column="16" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,11 +13,14 @@
           <Node name="medical_unity_game" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="00菜单" expanded="True">
-                  <Node name="UIManagerWithOO.cs" selected="True" />
-                </Node>
+                <Node name="00菜单" expanded="True" />
                 <Node name="01老奶奶" expanded="True">
                   <Node name="1" expanded="True" />
+                </Node>
+                <Node name="运动" expanded="True">
+                  <Node name="场景一" expanded="True">
+                    <Node name="UIMangerWithZero.cs" selected="True" />
+                  </Node>
                 </Node>
               </Node>
             </Node>
@@ -32,7 +31,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="58db9590-3c80-426d-919c-59ebe8ec1e53" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7f0b19af-045a-4bae-a13d-224077e76de8" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

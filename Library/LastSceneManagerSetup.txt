@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Third.unity
+- path: "Assets/Scenes/00\u83DC\u5355/StartWithSport.unity"
   isLoaded: 1
   isActive: 1
   isSubScene: 0

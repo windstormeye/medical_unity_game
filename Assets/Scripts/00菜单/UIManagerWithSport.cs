@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UIManagerWithSport : MonoBehaviour
 {
@@ -14,5 +15,11 @@ public class UIManagerWithSport : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void Back()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+
     }
 }
