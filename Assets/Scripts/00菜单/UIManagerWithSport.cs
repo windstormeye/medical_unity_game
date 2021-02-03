@@ -17,9 +17,15 @@ public class UIManagerWithSport : MonoBehaviour
         
     }
 
+    // NOTE: 返回到主菜单
     public void Back()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+    }
 
+    // NOTE: 案例一
+    public void First()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 6);
     }
 }
