@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{03295C72-1136-4387-8367-0BD3C3794DD9}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/运动/场景二/UIManagerWithSecond.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/00菜单/UIManagerWithFood.cs">
     <Files>
+      <File FileName="Assets/Scripts/00菜单/UIManagerWithFood.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/00菜单/UIManagerWithOO.cs" Line="9" Column="1" />
-      <File FileName="Assets/Scripts/00菜单/UIManagerWithSport.cs" Line="26" Column="17" />
-      <File FileName="Assets/Scripts/01老奶奶/1/UIManager.cs" Line="47" Column="1" />
-      <File FileName="Assets/Scripts/01老奶奶/1/GameManager.cs" Line="34" Column="1" />
-      <File FileName="Assets/Scripts/运动/场景一/UIMangerWithZero.cs" Line="78" Column="37" />
-      <File FileName="Assets/Scripts/运动/场景二/UIManagerWithSecond.cs" Line="5" Column="33" />
+      <File FileName="Assets/Scripts/00菜单/UIManagerWithSport.cs" />
+      <File FileName="Assets/Scripts/01老奶奶/1/UIManager.cs" />
+      <File FileName="Assets/Scripts/01老奶奶/1/GameManager.cs" />
+      <File FileName="Assets/Scripts/运动/场景一/UIMangerWithZero.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,15 +14,15 @@
           <Node name="medical_unity_game" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="00菜单" expanded="True" />
+                <Node name="00菜单" expanded="True">
+                  <Node name="UIManagerWithFood.cs" selected="True" />
+                </Node>
                 <Node name="01老奶奶" expanded="True">
                   <Node name="1" expanded="True" />
                 </Node>
                 <Node name="运动" expanded="True">
                   <Node name="场景一" expanded="True" />
-                  <Node name="场景二" expanded="True">
-                    <Node name="UIManagerWithSecond.cs" selected="True" />
-                  </Node>
+                  <Node name="场景二" expanded="True" />
                 </Node>
               </Node>
             </Node>
@@ -33,7 +33,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7f0b19af-045a-4bae-a13d-224077e76de8" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="98d9b8da-54a8-4469-bf66-2d8b0013bfd7" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

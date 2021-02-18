@@ -25,7 +25,7 @@ public class UIManagerWithOO : MonoBehaviour
 
     public void GotoDietScene()
     {
-
+        SceneManager.LoadScene(9);
     }
 
     public void GotoPillScene()
