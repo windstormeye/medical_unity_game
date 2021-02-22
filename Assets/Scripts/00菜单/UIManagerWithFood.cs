@@ -27,7 +27,7 @@ public class UIManagerWithFood : MonoBehaviour
     // NOTE: 案例一
     public void First()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 6);
+        SceneManager.LoadScene(10);
     }
 
     // NOTE: 案例二

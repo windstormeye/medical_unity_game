@@ -11,14 +11,13 @@ public class UIManagerWithFoodFirst : MonoBehaviour
     public GameObject SecondPanel;
     public GameObject ThirdPanel;
     public GameObject FourPanel;
-    public GameObject FivePanel;
     public GameObject OverPanel;
     public GameObject RestartPanel;
 
     // Start is called before the first frame update
     void Start()
     {
-        showFirstPanel();
+        ShowFirstPannel();
     }
 
     // Update is called once per frame
@@ -27,8 +26,58 @@ public class UIManagerWithFoodFirst : MonoBehaviour
         
     }
 
-    public void showFirstPanel()
+    public void ShowFirstPannel()
     {
         FirstPanel.SetActive(true);
+    }
+
+    public void ShowSecondPannel()
+    {
+        FirstPanel.SetActive(false);
+        SecondPanel.SetActive(true);
+    }
+
+    public void ShowThirdPannel()
+    {
+        SecondPanel.SetActive(false);
+        ThirdPanel.SetActive(true);
+    }
+
+    public void ShowFourPannel()
+    {
+        ThirdPanel.SetActive(false);
+        FourPanel.SetActive(true);
+    }
+
+    public void GameOver()
+    {
+        FirstPanel.SetActive(false);
+        SecondPanel.SetActive(false);
+        ThirdPanel.SetActive(false);
+        FourPanel.SetActive(false);
+
+        OverPanel.SetActive(true);
+    }
+
+    public void RestartGame()
+    {
+        FirstPanel.SetActive(false);
+        SecondPanel.SetActive(false);
+        ThirdPanel.SetActive(false);
+        FourPanel.SetActive(false);
+
+        RestartPanel.SetActive(true);
+    }
+
+    // NOTE: 再来一次
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    // NOTE: 返回菜单
+    public void BackMenu()
+    {
+        SceneManager.LoadScene(0);
     }
 }
