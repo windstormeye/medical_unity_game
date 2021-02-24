@@ -1,14 +1,15 @@
 ﻿<Properties StartupConfiguration="{03295C72-1136-4387-8367-0BD3C3794DD9}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/饮食/UIManagerWithFoodFirst.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/饮食/UIManagerWithFoodSecond.cs">
     <Files>
-      <File FileName="Assets/Scripts/00菜单/UIManagerWithFood.cs" Line="24" Column="35" />
+      <File FileName="Assets/Scripts/00菜单/UIManagerWithFood.cs" Line="28" Column="16" />
       <File FileName="Assets/Scripts/00菜单/UIManagerWithOO.cs" Line="30" Column="1" />
       <File FileName="Assets/Scripts/00菜单/UIManagerWithSport.cs" Line="5" Column="1" />
       <File FileName="Assets/Scripts/01老奶奶/1/UIManager.cs" />
       <File FileName="Assets/Scripts/01老奶奶/1/GameManager.cs" />
       <File FileName="Assets/Scripts/运动/场景一/UIMangerWithZero.cs" />
-      <File FileName="Assets/Scripts/饮食/UIManagerWithFoodFirst.cs" Line="5" Column="1" />
-      <File FileName="Assets/Scripts/运动/场景二/UIManagerWithFirst.cs" Line="5" Column="1" />
+      <File FileName="Assets/Scripts/饮食/UIManagerWithFoodFirst.cs" Line="70" Column="6" />
+      <File FileName="Assets/Scripts/运动/场景二/UIManagerWithFirst.cs" Line="59" Column="5" />
+      <File FileName="Assets/Scripts/饮食/UIManagerWithFoodSecond.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -25,7 +26,7 @@
                   <Node name="场景二" expanded="True" />
                 </Node>
                 <Node name="饮食" expanded="True">
-                  <Node name="UIManagerWithFoodFirst.cs" selected="True" />
+                  <Node name="UIManagerWithFoodSecond.cs" selected="True" />
                 </Node>
               </Node>
             </Node>
