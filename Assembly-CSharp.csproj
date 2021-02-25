@@ -70,6 +70,7 @@
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
+    <Compile Include="Assets\Scripts\00菜单\UIManagerPill.cs" />
     <Compile Include="Assets\Scripts\00菜单\UIManagerWithFood.cs" />
     <Compile Include="Assets\Scripts\00菜单\UIManagerWithOO.cs" />
     <Compile Include="Assets\Scripts\00菜单\UIManagerWithSport.cs" />
