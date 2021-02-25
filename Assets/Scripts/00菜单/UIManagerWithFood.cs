@@ -33,6 +33,6 @@ public class UIManagerWithFood : MonoBehaviour
     // NOTE: 案例二
     public void Second()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 7);
+        SceneManager.LoadScene(11);
     }
 }

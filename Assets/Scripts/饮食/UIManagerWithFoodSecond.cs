@@ -70,6 +70,7 @@ public class UIManagerWithFoodSecond : MonoBehaviour
     // NOTE: 再来一次
     public void Restart()
     {
+        RestartPanel.SetActive(false);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
