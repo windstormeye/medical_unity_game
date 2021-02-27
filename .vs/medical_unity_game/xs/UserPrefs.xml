@@ -1,16 +1,17 @@
 ﻿<Properties StartupConfiguration="{03295C72-1136-4387-8367-0BD3C3794DD9}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/00菜单/UIManagerWithFood.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/00菜单/UIManagerPill.cs">
     <Files>
-      <File FileName="Assets/Scripts/00菜单/UIManagerPillFirst.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/00菜单/UIManagerWithFood.cs" Line="21" Column="19" />
+      <File FileName="Assets/Scripts/用药/UIManagerPillFirst.cs" Line="72" Column="38" />
+      <File FileName="Assets/Scripts/00菜单/UIManagerWithFood.cs" Line="5" Column="1" />
       <File FileName="Assets/Scripts/00菜单/UIManagerWithOO.cs" />
       <File FileName="Assets/Scripts/00菜单/UIManagerWithSport.cs" />
       <File FileName="Assets/Scripts/01老奶奶/1/UIManager.cs" />
       <File FileName="Assets/Scripts/01老奶奶/1/GameManager.cs" />
       <File FileName="Assets/Scripts/运动/场景一/UIMangerWithZero.cs" />
-      <File FileName="Assets/Scripts/饮食/UIManagerWithFoodFirst.cs" />
-      <File FileName="Assets/Scripts/运动/场景二/UIManagerWithFirst.cs" />
-      <File FileName="Assets/Scripts/饮食/UIManagerWithFoodSecond.cs" />
+      <File FileName="Assets/Scripts/饮食/UIManagerWithFoodFirst.cs" Line="7" Column="10" />
+      <File FileName="Assets/Scripts/运动/场景二/UIManagerWithFirst.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/饮食/UIManagerWithFoodSecond.cs" Line="83" Column="1" />
+      <File FileName="Assets/Scripts/00菜单/UIManagerPill.cs" Line="23" Column="33" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,12 +20,9 @@
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
                 <Node name="00菜单" expanded="True">
-                  <Node name="UIManagerWithFood.cs" selected="True" />
+                  <Node name="UIManagerPill.cs" selected="True" />
                 </Node>
-                <Node name="运动" expanded="True">
-                  <Node name="场景一" expanded="True" />
-                  <Node name="场景二" expanded="True" />
-                </Node>
+                <Node name="用药" expanded="True" />
                 <Node name="饮食" expanded="True" />
               </Node>
             </Node>
@@ -35,7 +33,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e0135c07-ec54-44d0-866c-9609f81b4280" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b6a37c0c-133e-42ab-9920-f56e9c1ccf8d" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -30,7 +30,7 @@ public class UIManagerWithOO : MonoBehaviour
 
     public void GotoPillScene()
     {
-
+        SceneManager.LoadScene(12);
     }
 
     public void GotoSportScene()

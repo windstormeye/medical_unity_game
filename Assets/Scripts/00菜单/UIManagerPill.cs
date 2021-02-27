@@ -20,13 +20,13 @@ public class UIManagerPill : MonoBehaviour
     // NOTE: 返回到主菜单
     public void Back()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        SceneManager.LoadScene(0);
     }
 
     // NOTE: 案例一
     public void First()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 6);
+        SceneManager.LoadScene(13);
     }
 
     // NOTE: 案例二

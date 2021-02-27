@@ -81,6 +81,7 @@
     <Compile Include="Assets\Scripts\01老奶奶\3\ThirdGameManager.cs" />
     <Compile Include="Assets\Scripts\01老奶奶\4\FourGameManager.cs" />
     <Compile Include="Assets\Scripts\01老奶奶\5\FiveGameManager.cs" />
+    <Compile Include="Assets\Scripts\用药\UIManagerPillFirst.cs" />
     <Compile Include="Assets\Scripts\运动\场景一\UIMangerWithZero.cs" />
     <Compile Include="Assets\Scripts\运动\场景二\UIManagerWithFirst.cs" />
     <Compile Include="Assets\Scripts\饮食\UIManagerWithFoodFirst.cs" />
