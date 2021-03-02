@@ -62,6 +62,7 @@ public class UIManagerPillSecond : MonoBehaviour
         SecondPanel.SetActive(false);
         ThirdPanel.SetActive(false);
         FourPanel.SetActive(false);
+        FivePanel.SetActive(false);
 
         OverPanel.SetActive(true);
     }
