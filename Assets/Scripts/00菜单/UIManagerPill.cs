@@ -27,12 +27,18 @@ public class UIManagerPill : MonoBehaviour
     public void First()
     {
         SceneManager.LoadScene(13);
-    }
+    } 
 
     // NOTE: 案例二
     public void Second()
     {
         SceneManager.LoadScene(14);
+    }
+
+    // NOTE: 案例三
+    public void Third()
+    {
+        SceneManager.LoadScene(15);
     }
 }
 

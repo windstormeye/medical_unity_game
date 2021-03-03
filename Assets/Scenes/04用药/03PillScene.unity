@@ -1720,8 +1720,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000061035, y: 69.341}
-  m_SizeDelta: {x: 741.4435, y: 138.68137}
+  m_AnchoredPosition: {x: 0.00013351, y: 69.341}
+  m_SizeDelta: {x: 577.5314, y: 138.68137}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &379698352
 MonoBehaviour:
@@ -1767,7 +1767,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1252378942}
-        m_MethodName: EatFoodAfterSport
+        m_MethodName: ShowThirdPanel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1897,7 +1897,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1252378942}
-        m_MethodName: indoorNotSport
+        m_MethodName: ShowGameOverPanel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3300,7 +3300,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1252378942}
-        m_MethodName: Strawberry
+        m_MethodName: ShowFourPanel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3792,7 +3792,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1252378942}
-        m_MethodName: Milk
+        m_MethodName: ShowGameOverPanel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3999,7 +3999,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1252378942}
-        m_MethodName: continueSport
+        m_MethodName: ShowGameOverPanel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4306,16 +4306,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1252378941}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a554aacacf33e4441875b5f1c1f80a11, type: 3}
+  m_Script: {fileID: 11500000, guid: d82cc08f7a3a348579914e0da1b15fe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FirstPannel: {fileID: 1429961546}
-  SecondPannel: {fileID: 1101167152}
-  ThirdPannel: {fileID: 161153337}
+  FirstPannel: {fileID: 161153337}
+  SecondPannel: {fileID: 1429961546}
+  ThirdPannel: {fileID: 1101167152}
   FourPannel: {fileID: 1862801385}
+  FivePannel: {fileID: 1388544305}
   GameOverPannel: {fileID: 761698785}
   PassPannel: {fileID: 412214378}
-  TextPannel: {fileID: 594232910}
+  TextPannel: {fileID: 0}
   AYES: {fileID: 170954874}
   BYES: {fileID: 1055122682}
   CYES: {fileID: 20741547}
@@ -4587,7 +4588,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1388544306
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5041,7 +5042,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1252378942}
-        m_MethodName: indoorNotSport
+        m_MethodName: ShowGameOverPanel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5249,7 +5250,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1252378942}
-        m_MethodName: indoorNotSport
+        m_MethodName: ShowGameOverPanel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6096,7 +6097,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1252378942}
-        m_MethodName: OutdoorSport
+        m_MethodName: ShowFivePanel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6382,7 +6383,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1252378942}
-        m_MethodName: OutdoorSport
+        m_MethodName: ShowPassPanel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
