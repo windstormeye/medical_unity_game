@@ -53,4 +53,10 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/04\u7528\u836F/03PillScene.unity"
     guid: a8449c24eabfa4814b88a9805f7261bb
+  - enabled: 1
+    path: "Assets/Scenes/04\u7528\u836F/04PillScene.unity"
+    guid: b5eb2b770cebb48d5ad731a1c6a19357
+  - enabled: 1
+    path: "Assets/Scenes/04\u7528\u836F/05PillScene.unity"
+    guid: 0dfcc6bc9a4df4044a9994455682db7d
   m_configObjects: {}

@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{03295C72-1136-4387-8367-0BD3C3794DD9}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/00菜单/UIManagerPill.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/用药/UIManagerPill.cs">
     <Files>
-      <File FileName="Assets/Scripts/用药/UIManagerPillFour.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/用药/UIManagerPillFour.cs" Line="86" Column="37" />
       <File FileName="Assets/Scripts/用药/UIManagerPillThird.cs" />
       <File FileName="Assets/Scripts/用药/UIManagerPillFirst.cs" />
       <File FileName="Assets/Scripts/00菜单/UIManagerWithFood.cs" />
@@ -13,8 +13,9 @@
       <File FileName="Assets/Scripts/饮食/UIManagerWithFoodFirst.cs" />
       <File FileName="Assets/Scripts/运动/场景二/UIManagerWithFirst.cs" />
       <File FileName="Assets/Scripts/饮食/UIManagerWithFoodSecond.cs" />
-      <File FileName="Assets/Scripts/00菜单/UIManagerPill.cs" Line="27" Column="24" />
-      <File FileName="Assets/Scripts/用药/UIManagerPillSecond.cs" />
+      <File FileName="Assets/Scripts/00菜单/UIManagerPill.cs" />
+      <File FileName="Assets/Scripts/用药/UIManagerPill.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/用药/UIManagerPillFive.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -24,7 +25,7 @@
               <Node name="Scripts" expanded="True">
                 <Node name="00菜单" expanded="True" />
                 <Node name="用药" expanded="True">
-                  <Node name="UIManagerPillFour.cs" selected="True" />
+                  <Node name="UIManagerPill.cs" selected="True" />
                 </Node>
                 <Node name="运动" expanded="True">
                   <Node name="场景一" expanded="True" />
@@ -40,7 +41,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f4bd158c-91b1-4ffe-b209-d4ca4aef6052" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="45a55ac4-8b7f-4010-93ca-1e1abc2a814e" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
