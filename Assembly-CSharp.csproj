@@ -86,6 +86,7 @@
     <Compile Include="Assets\Scripts\用药\UIManagerPillFive.cs" />
     <Compile Include="Assets\Scripts\用药\UIManagerPillFour.cs" />
     <Compile Include="Assets\Scripts\用药\UIManagerPillSecond.cs" />
+    <Compile Include="Assets\Scripts\用药\UIManagerPillSix.cs" />
     <Compile Include="Assets\Scripts\用药\UIManagerPillThird.cs" />
     <Compile Include="Assets\Scripts\运动\场景一\UIMangerWithZero.cs" />
     <Compile Include="Assets\Scripts\运动\场景二\UIManagerWithFirst.cs" />
