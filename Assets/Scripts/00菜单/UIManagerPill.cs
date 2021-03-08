@@ -64,5 +64,11 @@ public class UIManagerPill : MonoBehaviour
     {
         SceneManager.LoadScene(19);
     }
+
+    // NOTE: 案例八
+    public void Eight()
+    {
+        SceneManager.LoadScene(20);
+    }
 }
 
