@@ -34,4 +34,16 @@ public class UIManagerWithSport : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 7);
     }
+
+    // NOTE: 案例三
+    public void Third()
+    {
+        SceneManager.LoadScene(20);
+    }
+
+    // NOTE: 案例四
+    public void Four()
+    {
+        SceneManager.LoadScene(21);
+    }
 }

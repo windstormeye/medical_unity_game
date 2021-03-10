@@ -65,4 +65,10 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/04\u7528\u836F/07PillScene.unity"
     guid: e0cbbc1fa2ad24624aa8acf44cc80dcf
+  - enabled: 1
+    path: "Assets/Scenes/02\u8FD0\u52A8/03SportScene.unity"
+    guid: 17b8c3c8d19d1482589558746557c10a
+  - enabled: 1
+    path: "Assets/Scenes/02\u8FD0\u52A8/05SportScene.unity"
+    guid: 877e90e261ffe4a4f94245641c9099dc
   m_configObjects: {}
