@@ -35,4 +35,10 @@ public class UIManagerWithFood : MonoBehaviour
     {
         SceneManager.LoadScene(11);
     }
+
+    // NOTE: 案例三
+    public void Third()
+    {
+        SceneManager.LoadScene(22);
+    }
 }
