@@ -95,6 +95,7 @@
     <Compile Include="Assets\Scripts\运动\场景一\UIMangerWithZero.cs" />
     <Compile Include="Assets\Scripts\运动\场景二\UIManagerWithFirst.cs" />
     <Compile Include="Assets\Scripts\饮食\UIManagerWithFoodFirst.cs" />
+    <Compile Include="Assets\Scripts\饮食\UIManagerWithFoodFour.cs" />
     <Compile Include="Assets\Scripts\饮食\UIManagerWithFoodSecond.cs" />
     <Compile Include="Assets\Scripts\饮食\UIManagerWithFoodThird.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

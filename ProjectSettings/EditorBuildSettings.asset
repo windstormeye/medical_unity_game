@@ -74,4 +74,7 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/03\u996E\u98DF/03FoodScene.unity"
     guid: 7195efb9b7efe434482c6580060aa5dd
+  - enabled: 1
+    path: "Assets/Scenes/03\u996E\u98DF/04FoodScene.unity"
+    guid: bc866debae20047a8a97f77f731a6d73
   m_configObjects: {}
