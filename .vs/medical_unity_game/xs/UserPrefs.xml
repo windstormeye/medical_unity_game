@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{03295C72-1136-4387-8367-0BD3C3794DD9}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/饮食/UIManagerWithFoodFour.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/用药/UIManagerPillTen.cs">
     <Files>
       <File FileName="Assets/Scripts/用药/UIManagerPillEight.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/用药/UIManagerPillSeven.cs" Line="92" Column="2" />
       <File FileName="Assets/Scripts/用药/UIManagerPillFour.cs" />
       <File FileName="Assets/Scripts/用药/UIManagerPillThird.cs" />
       <File FileName="Assets/Scripts/用药/UIManagerPillFirst.cs" />
-      <File FileName="Assets/Scripts/00菜单/UIManagerWithFood.cs" Line="40" Column="24" />
+      <File FileName="Assets/Scripts/00菜单/UIManagerWithFood.cs" Line="48" Column="36" />
       <File FileName="Assets/Scripts/00菜单/UIManagerWithOO.cs" />
       <File FileName="Assets/Scripts/00菜单/UIManagerWithSport.cs" Line="42" Column="6" />
       <File FileName="Assets/Scripts/01老奶奶/1/UIManager.cs" />
@@ -22,6 +22,8 @@
       <File FileName="Assets/Scripts/运动/UIManagerSportFour.cs" Line="7" Column="34" />
       <File FileName="Assets/Scripts/饮食/UIManagerWithFoodThird.cs" Line="31" Column="6" />
       <File FileName="Assets/Scripts/饮食/UIManagerWithFoodFour.cs" Line="6" Column="35" />
+      <File FileName="Assets/Scripts/用药/UIManagerPillSeven1.cs" Line="76" Column="21" />
+      <File FileName="Assets/Scripts/用药/UIManagerPillTen.cs" Line="14" Column="27" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -30,11 +32,11 @@
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
                 <Node name="00菜单" expanded="True" />
-                <Node name="用药" expanded="True" />
-                <Node name="运动" expanded="True" />
-                <Node name="饮食" expanded="True">
-                  <Node name="UIManagerWithFoodFour.cs" selected="True" />
+                <Node name="用药" expanded="True">
+                  <Node name="UIManagerPillTen.cs" selected="True" />
                 </Node>
+                <Node name="运动" expanded="True" />
+                <Node name="饮食" expanded="True" />
               </Node>
             </Node>
           </Node>
