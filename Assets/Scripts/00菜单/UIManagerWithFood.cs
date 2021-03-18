@@ -71,4 +71,10 @@ public class UIManagerWithFood : MonoBehaviour
     {
         SceneManager.LoadScene(32);
     }
+
+    // NOTE: 案例九
+    public void Nine()
+    {
+        SceneManager.LoadScene(33);
+    }
 }

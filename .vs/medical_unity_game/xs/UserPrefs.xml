@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{03295C72-1136-4387-8367-0BD3C3794DD9}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/饮食/UIManagerWithFoodSeven.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/用药/UIManagerPillFirst12.cs">
     <Files>
       <File FileName="Assets/Scripts/用药/UIManagerPillEight.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/用药/UIManagerPillSeven.cs" Line="92" Column="2" />
       <File FileName="Assets/Scripts/用药/UIManagerPillFour.cs" />
       <File FileName="Assets/Scripts/用药/UIManagerPillThird.cs" />
-      <File FileName="Assets/Scripts/用药/UIManagerPillFirst.cs" />
-      <File FileName="Assets/Scripts/00菜单/UIManagerWithFood.cs" Line="65" Column="6" />
+      <File FileName="Assets/Scripts/用药/UIManagerPillFirst.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/00菜单/UIManagerWithFood.cs" Line="78" Column="36" />
       <File FileName="Assets/Scripts/00菜单/UIManagerWithOO.cs" />
       <File FileName="Assets/Scripts/00菜单/UIManagerWithSport.cs" Line="65" Column="34" />
       <File FileName="Assets/Scripts/01老奶奶/1/UIManager.cs" />
@@ -15,7 +15,7 @@
       <File FileName="Assets/Scripts/饮食/UIManagerWithFoodFirst.cs" />
       <File FileName="Assets/Scripts/运动/场景二/UIManagerWithFirst.cs" />
       <File FileName="Assets/Scripts/饮食/UIManagerWithFoodSecond.cs" />
-      <File FileName="Assets/Scripts/00菜单/UIManagerPill.cs" Line="65" Column="23" />
+      <File FileName="Assets/Scripts/00菜单/UIManagerPill.cs" Line="82" Column="6" />
       <File FileName="Assets/Scripts/用药/UIManagerPillFive.cs" />
       <File FileName="Assets/Scripts/用药/UIManagerPillSix.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/运动/UIManagerPillSix.cs" Line="15" Column="33" />
@@ -28,7 +28,10 @@
       <File FileName="Assets/Scripts/运动/UIManagerSportSix.cs" Line="15" Column="33" />
       <File FileName="Assets/Scripts/饮食/UIManagerWithFoodFive.cs" Line="67" Column="36" />
       <File FileName="Assets/Scripts/饮食/UIManagerWithFoodSix.cs" Line="65" Column="6" />
-      <File FileName="Assets/Scripts/饮食/UIManagerWithFoodSeven.cs" Line="66" Column="6" />
+      <File FileName="Assets/Scripts/饮食/UIManagerWithFoodSeven.cs" Line="102" Column="18" />
+      <File FileName="Assets/Scripts/饮食/UIManagerWithFoodNine.cs" Line="64" Column="36" />
+      <File FileName="Assets/Scripts/用药/UIManagerPillFirst11.cs" Line="35" Column="37" />
+      <File FileName="Assets/Scripts/用药/UIManagerPillFirst12.cs" Line="10" Column="35" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -37,11 +40,11 @@
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
                 <Node name="00菜单" expanded="True" />
-                <Node name="用药" expanded="True" />
-                <Node name="运动" expanded="True" />
-                <Node name="饮食" expanded="True">
-                  <Node name="UIManagerWithFoodSeven.cs" selected="True" />
+                <Node name="用药" expanded="True">
+                  <Node name="UIManagerPillFirst12.cs" selected="True" />
                 </Node>
+                <Node name="运动" expanded="True" />
+                <Node name="饮食" expanded="True" />
               </Node>
             </Node>
           </Node>

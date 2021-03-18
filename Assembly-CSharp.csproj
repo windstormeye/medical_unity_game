@@ -84,6 +84,8 @@
     <Compile Include="Assets\Scripts\01老奶奶\5\FiveGameManager.cs" />
     <Compile Include="Assets\Scripts\用药\UIManagerPillEight.cs" />
     <Compile Include="Assets\Scripts\用药\UIManagerPillFirst.cs" />
+    <Compile Include="Assets\Scripts\用药\UIManagerPillFirst11.cs" />
+    <Compile Include="Assets\Scripts\用药\UIManagerPillFirst12.cs" />
     <Compile Include="Assets\Scripts\用药\UIManagerPillFive.cs" />
     <Compile Include="Assets\Scripts\用药\UIManagerPillFour.cs" />
     <Compile Include="Assets\Scripts\用药\UIManagerPillNine.cs" />
@@ -101,6 +103,7 @@
     <Compile Include="Assets\Scripts\饮食\UIManagerWithFoodFirst.cs" />
     <Compile Include="Assets\Scripts\饮食\UIManagerWithFoodFive.cs" />
     <Compile Include="Assets\Scripts\饮食\UIManagerWithFoodFour.cs" />
+    <Compile Include="Assets\Scripts\饮食\UIManagerWithFoodNine.cs" />
     <Compile Include="Assets\Scripts\饮食\UIManagerWithFoodSecond.cs" />
     <Compile Include="Assets\Scripts\饮食\UIManagerWithFoodSeven.cs" />
     <Compile Include="Assets\Scripts\饮食\UIManagerWithFoodSix.cs" />

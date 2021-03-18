@@ -104,4 +104,13 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/03\u996E\u98DF/08FoodScene.unity"
     guid: bf63ba64f76a44d9188332a0eae24cdd
+  - enabled: 1
+    path: "Assets/Scenes/03\u996E\u98DF/09FoodScene.unity"
+    guid: 5e79cc3c03e6e46ef8928f865ee363f0
+  - enabled: 1
+    path: "Assets/Scenes/04\u7528\u836F/10PillScene.unity"
+    guid: c2330b9ecab4340559b905f31ffa157d
+  - enabled: 1
+    path: "Assets/Scenes/04\u7528\u836F/11PillScene.unity"
+    guid: 901182888547841aab01b95d8f90cb73
   m_configObjects: {}
