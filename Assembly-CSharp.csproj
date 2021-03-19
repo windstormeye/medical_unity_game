@@ -97,6 +97,7 @@
     <Compile Include="Assets\Scripts\运动\UIManagerSportFive.cs" />
     <Compile Include="Assets\Scripts\运动\UIManagerSportFour.cs" />
     <Compile Include="Assets\Scripts\运动\UIManagerSportSix.cs" />
+    <Compile Include="Assets\Scripts\运动\UIManagerSportSix1.cs" />
     <Compile Include="Assets\Scripts\运动\UIManagerSportThird.cs" />
     <Compile Include="Assets\Scripts\运动\场景一\UIMangerWithZero.cs" />
     <Compile Include="Assets\Scripts\运动\场景二\UIManagerWithFirst.cs" />

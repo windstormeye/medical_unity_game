@@ -64,4 +64,10 @@ public class UIManagerWithSport : MonoBehaviour
     {
         SceneManager.LoadScene(28);
     }
+
+    // NOTE: 案例八
+    public void Eight()
+    {
+        SceneManager.LoadScene(36);
+    }
 }
